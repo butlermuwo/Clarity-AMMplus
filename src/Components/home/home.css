@@ -1,0 +1,130 @@
+.home-page-container {
+    background-color: #2B4BBF;
+    color: #fff;
+    width: 100vw;
+    padding-top: 190px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero {
+    font-size: 36px;
+    line-height: 60px;
+    width: 540px;
+    font-weight: bold;
+}
+
+.hero-text {
+    font-size: 16px;
+    line-height: 28px;
+    width: 543px;
+    font-family: 'monorepo';
+}
+
+.hero-button {
+    color: #3D66FF;
+    background: #FFF;
+    border-radius: 3.5px;
+    padding: 25px 50px;
+    border: none;
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+/* CHART-SECTION */
+
+.chart-section {
+    padding-top: 100px;
+    background-color: #F2F2F2;
+
+}
+
+.chart-div {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: left;
+
+}
+
+.chart-header {
+    color: #333333;
+    font-size: 40px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+.chart-text {
+    font-size: 16px;
+}
+.bold-text {
+    font-weight: bold;    
+}
+
+.chart-holder {
+    background: #fff;
+    height: 613px;
+    width: 1110px;
+    border: solid 1px black;
+    border-radius: 8px;
+}
+
+.btn-div {
+   margin: auto;
+
+}
+.chart-btn {
+    background: #3D66FF;
+    color: #FFF;
+    justify-self: center;
+
+}
+
+.phase-info {
+    width: 1110px;
+    background-color: #fff;
+    height: 229px;
+    padding: 41px 35px;
+    border-radius: 5px;
+}
+.phase-header {
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.phase-text {
+    color: #666666;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+.feedback-questions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.feedback-questions li {
+    background: #fff;
+    display: flex;
+    padding: 15px 20px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 20px rgba(33, 33, 33, 0.12), 0px 2px 4px rgba(33, 33, 33, 0.15);
+}
+
+.hr-line {
+    margin-top: 100px;
+}
+.feedback-questions li p {
+    font-weight: bold;
+}
