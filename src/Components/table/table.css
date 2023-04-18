@@ -1,0 +1,66 @@
+/* styles for the table header */
+.react-data-table-component .rdt_TableHead {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  /* styles for the table rows */
+  .react-data-table-component .rdt_TableRow {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* styles for the table cells */
+  .react-data-table-component .rdt_TableCell {
+    padding: 10px;
+  }
+  
+  /* styles for the pagination */
+  .react-data-table-component .rdt_Pagination {
+    margin-top: 20px;
+  }
+  
+  /* styles for the pagination buttons */
+  .react-data-table-component .rdt_PaginationButton {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+    padding: 5px 10px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  /* styles for the active pagination button */
+  .react-data-table-component .rdt_PaginationButton.active {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* styles for the pagination rows per page dropdown */
+  .react-data-table-component .rdt_TableRowPerPage {
+    margin-right: 20px;
+  }
+  
+  /* styles for the search box */
+  .react-data-table-component .rdt_TableHeader input {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    width: 200px;
+  }
+  
+  /* styles for the sort icon */
+  /* .react-data-table-component .rdt_TableHeader i {
+    margin-left: 5px;
+  } */
+  
+  /* styles for when there's no data to display */
+  .react-data-table-component .rdt_TableBody .rdt_TableRow:last-child {
+    border-bottom: none;
+  }
+  
+  .react-data-table-component .rdt_TableCell--center {
+    text-align: center;
+  }
