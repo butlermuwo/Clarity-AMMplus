@@ -21,9 +21,8 @@ const Navbar = () => {
 
 					<div className='header-right'>
 						<ul className='d-flex'>
-							<li>Backtest</li>
-
-							<li>View on Github →</li>
+							<li><a href='#historical'>Backtest</a></li>
+							<li><a href='https://github.com/butlermuwo/Clarity-AMMplus' target='_blank'>View on Github →</a></li>
 						</ul>
 					</div>
 				</nav>

@@ -1,0 +1,9 @@
+.hist-container {
+    box-shadow: 0 2px 4px rgba(255, 116, 116, 0.2);
+    padding: 1rem;
+    background: #d3e7ff;
+    border: 1px solid #add1ff;
+    border-radius: 22px;
+    padding: 20px 25px;
+    margin-bottom: 60px;
+  }

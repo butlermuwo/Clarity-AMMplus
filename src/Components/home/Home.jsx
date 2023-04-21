@@ -15,15 +15,12 @@ const Home = () => {
 
       <section className="chart-section">
         <div className="container chart-div">
-          <h2 className='chart-header'>Historical Perfomance</h2>
+          <h2 className='chart-header' id='historical'>Historical Perfomance</h2>
           <p className='chart-text'>
           The portfolio historical performance computes statistics such as volatility and sharpe ratio and which is then<strong className='bold-text' > benchmarked against</strong><strong className='bold-text'> BTC, S&P 500, and a custom AMM Index</strong>.
           </p>
         </div>
       </section>
-      <div className="container hr-line">
-        <hr />
-      </div>
     </>
   )
 }

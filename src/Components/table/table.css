@@ -1,6 +1,6 @@
 /* styles for the table header */
 .react-data-table-component .rdt_TableHead {
-    background-color: #f0f0f0;
+    background-color: #a02525;
     font-weight: bold;
   }
   
@@ -63,4 +63,13 @@
   
   .react-data-table-component .rdt_TableCell--center {
     text-align: center;
+  }
+
+  .card-container {
+    box-shadow: 0 2px 4px rgba(255, 116, 116, 0.2);
+    padding: 1rem;
+    background: #d3e7ff;
+    border: 1px solid #add1ff;
+    border-radius: 22px;
+    padding: 20px 25px;
   }

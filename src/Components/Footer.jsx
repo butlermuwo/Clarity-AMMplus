@@ -4,13 +4,10 @@ const Footer = () => {
 
     const today = new Date()
   return (
-    <footer className='footer-container'>
-        <div className="container hr-line">
-        <hr />
-        </div>
+    <div className='footer-container'>
         <h3 className=''>Clarity AMM+</h3>
         <p className='copyright'>Window Finance &copy; {today.getFullYear()}</p>
-    </footer>
+    </div>
   )
 }
 

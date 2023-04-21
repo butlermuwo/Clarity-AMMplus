@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ReactEcharts from 'echarts-for-react';
 import axios from 'axios';
+import './chart.css'
 
 const Chart = () => {
   const [chartData, setChartData] = useState({});
@@ -30,32 +31,31 @@ const Chart = () => {
             type: 'category',
             data: sp500Dates
           },
-          yAxis: [
+          yAxis: 
             {
               type: 'value',
-              name: 'S&P 500',
+              name: 'S&P 500, BTC',
               min: Math.min(...sp500Values),
               max: Math.max(...sp500Values),
               axisLabel: {
                 formatter: '{value}'
               }
             },
-            {
-              type: 'value',
-              name: 'BTC',
-              min: Math.min(...btcValues),
-              max: Math.max(...btcValues),
-              axisLabel: {
-                formatter: '{value}'
-              }
-            }
-          ],
+            // {
+            //   type: 'value',
+            //   name: 'BTC',
+            //   min: Math.min(...btcValues),
+            //   max: Math.max(...btcValues),
+            //   axisLabel: {
+            //     formatter: '{value}'
+            //   }
+            // }
           series: [
             {
               name: 'S&P 500',
               type: 'line',
               data: sp500Values,
-              yAxisIndex: 0,
+              // yAxisIndex: 0,
               itemStyle: {
                 color: 'rgba(75,192,192,1)'
               },
@@ -67,7 +67,7 @@ const Chart = () => {
               name: 'BTC',
               type: 'line',
               data: btcValues,
-              yAxisIndex: 1,
+              // yAxisIndex: 1,
               itemStyle: {
                 color: 'rgba(255,99,132,1)'
               },
@@ -86,8 +86,11 @@ const Chart = () => {
   }, []);
 
   return (
-    <ReactEcharts option={chartData} />
+    <div className='hist-container' >
+      <ReactEcharts option={chartData} />
+    </div>
   );
 };
 
 export default Chart;
+

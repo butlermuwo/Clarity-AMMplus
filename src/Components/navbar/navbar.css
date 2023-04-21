@@ -26,8 +26,9 @@ ul {
     display: flex;
 }
 
-.header-left {
-    /* gap: 60px; */
+.header-right {
+    color:#E4E8ED;
+    list-style: none;
 }
 .verticle-line {
     border-right: 1px solid #E4E8ED ;
@@ -42,4 +43,16 @@ ul {
     display: inline-block;
     color: white;
     margin-right: 50px;
+    font-weight: bolder;
 }
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
