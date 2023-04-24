@@ -6,6 +6,14 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.header a {
+    color: #fff;
+}
+
+.header li {
+    list-style: none;
+}
+
 .d-flex {
     display: flex;
     align-items: center;

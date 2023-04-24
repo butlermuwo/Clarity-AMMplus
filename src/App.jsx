@@ -4,6 +4,7 @@ import Navbar from '../src/Components/navbar/Navbar'
 import Footer from './Components/Footer'
 import Chart from './Components/chart/Chart'
 import Table from './Components/table/Table'
+import Poolz from './Components/Pool'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <Chart />
       <Table />
+      <Poolz />
       <Footer />
     </div>
   )
